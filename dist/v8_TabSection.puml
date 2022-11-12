@@ -1,0 +1,27 @@
+@startuml v8_TabSection
+
+sprite $tabsection [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzewS<S<S<S<ewS<S<S<S<S<ewzzzz
+zzzzS<zzzzzzzzS<zzzzzzzzzzS<zzzz
+zzzzS<S<O;O;S<S<S<O;S<O;S<S<zzzz
+zzzzS<zzzzzzzzS<zzzzzzzzzzS<zzzz
+zzzzS<zzn>rRzzS<zzn?rRrRzzS<zzzz
+zzzzS<zzvivizzS<zzvivivizzS<zzzz
+zzzzS<zzn?rRzzS<zzn?rRrSzzS<zzzz
+zzzzS<zzvivizzS<zzvivivizzS<zzzz
+zzzzS<zzn>rRzzS<zzn?rRrRzzS<zzzz
+zzzzS<zzzzzzzzS<zzzzzzzzzzS<zzzz
+zzzzewS<S<S<S<ewS<S<S<S<S<ewzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_TabSection(_alias) ENTITY(accrg,_alias)
+!define v8_TabSection(_alias, _label) ENTITY(accrg,_alias,_label)
+!define _ТабличнаяЧасть(_alias) ENTITY(accrg,_alias)
+!define _ТабличнаяЧасть(_alias, _label) ENTITY(accrg,_alias,_label)
+
+@enduml
