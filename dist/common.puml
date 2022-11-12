@@ -60,6 +60,26 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 }
 
+' Sprite for Tabular Section
+sprite $t [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzewS<S<S<S<ewS<S<S<S<S<ewzzzz
+zzzzS<zzzzzzzzS<zzzzzzzzzzS<zzzz
+zzzzS<S<O;O;S<S<S<O;S<O;S<S<zzzz
+zzzzS<zzzzzzzzS<zzzzzzzzzzS<zzzz
+zzzzS<zzn>rRzzS<zzn?rRrRzzS<zzzz
+zzzzS<zzvivizzS<zzvivivizzS<zzzz
+zzzzS<zzn?rRzzS<zzn?rRrSzzS<zzzz
+zzzzS<zzvivizzS<zzvivivizzS<zzzz
+zzzzS<zzn>rRzzS<zzn?rRrRzzS<zzzz
+zzzzS<zzzzzzzzS<zzzzzzzzzzS<zzzz
+zzzzewS<S<S<S<ewS<S<S<S<S<ewzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
 ' Creates an aliased entity with a sprite (label equals alias)
 ' Params:
 '   e_sprite:   the sprite for the 1C:Enterprise icon representing the entity
